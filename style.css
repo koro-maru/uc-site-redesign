@@ -1,19 +1,5 @@
 
- /*body, html {
-  height: 100%;
-}
-*/
-.mainSection{
-  margin: 4vw;
-  background-color: white;
-  border-radius: 1vw;
-  padding: 3vw;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
-#homeMainDiv {
-  background-color: rgb(255, 255, 255);
-}
 #parallax1 {
 /* Temp blurry image for testing */
 background-image: url("background.jpg");
@@ -25,6 +11,23 @@ background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 } 
+
+.jumbotron {
+
+  padding: 20em;
+}
+
+#homeJumbo {
+
+background-image: url('uc.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.footer {
+  padding: 5em;
+}
 
 #parallax2 {
   /* Temp blurry image for testing */
@@ -38,12 +41,50 @@ background-image: url("background.jpg");
     background-size: cover;
   } 
 
-footer {
-  background-color: #333;
-}
- 
+  html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  .demo {
+    margin: 0 auto;
+    padding-top: 64px;
+    max-width: 640px;
+    width: 94%;
+  }
+  
+  .demo h1 {
+    margin-top: 0;
+  }
+  
+  /**
+   * Footer Styles
+   */
+  
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+  }
 h1 {
-  color:white;
   font-weight: bold;
   text-align: center;
 }
