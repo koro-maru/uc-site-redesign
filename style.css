@@ -1,122 +1,175 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
+h1{
+  text-align: center;
+  font-size: 8vh;
+  color: white;
+  font-family: 'Merriweather', serif;
+}
 
-#parallax1 {
-/* Temp blurry image for testing */
-background-image: url("background.jpg");
-/* Full height */
-  height: 500px;
+.card-columns{
+  display: inline-block;
+}
+
+.card{
+  margin: 1vh 1vh 1vh 1vh;
+}
+
+#mayor {
+  width: 30vw;
+  height: 50vh;
+}
+
+#mayor .card-img-top {
+ height: 40vh;
+ width: 100%;
+}
+
+#electedOfficials{
+  height: 120vh;
+}
+/*.parallax1 {
+ Temp blurry image for testing 
+ Full height 
+  height: 100vh;
   opacity: 0.95;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 } 
+*/
+#bodyLinks a {
+  font-size: 4vw;
+  padding: 4vw;
+}
+  #bodyLinks {
+    overflow: hidden;
+    padding: 2vh;
+    background-color: rgb(8, 1, 36);
+  }
+  section {
+    background-size: cover;
+    height: 100vh;
+  } 
 
 .jumbotron {
+  padding: 20vh;
+  margin-bottom: 0;
+}
 
-  padding: 20em;
+.card{
+  width: 10vw;
+  margin: 1vw 1vw 1vw 1vw;
 }
 
 #homeJumbo {
-
-background-image: url('uc.jpg');
+background-image: url('darkenedHead.png');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 }
 
-.footer {
-  padding: 5em;
-}
 
-#parallax2 {
-  /* Temp blurry image for testing */
-  background-image: url("uc.jpg");
-  /* Full height */
-    height: 500px;
-    opacity: 0.95;
+/*#parallax2 {
+    background-image: url("uc.jpg");
+    height: 100vh;
+    opacity: 0.90;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
   } 
-
-  html {
-    height: 100%;
-    box-sizing: border-box;
-  }
-  
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-  
-  body {
-    position: relative;
-    margin: 0;
-    padding-bottom: 6rem;
-    min-height: 100%;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-  }
-  
-  .demo {
-    margin: 0 auto;
-    padding-top: 64px;
-    max-width: 640px;
-    width: 94%;
-  }
-  
-  .demo h1 {
-    margin-top: 0;
-  }
-  
-  /**
-   * Footer Styles
-   */
+*/
   
   .footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    background-color: #efefef;
-    text-align: center;
+    font-size: 2vh;
+    height: 50vh;
+    padding: 2vh;
+    background-color: rgb(8, 1, 36);
   }
-h1 {
-  font-weight: bold;
+
+#title {
+  font-family: 'Merriweather', serif;
+  font-size: 10vh;
   text-align: center;
+  overflow: initial;
 }
+
+.jumbotron h1 {
+  color: white;
+}
+
  /* Style the navbar */
- #navbar {
+ /*#navbar {
   overflow: hidden;
-  background-color: rgb(0, 0, 0);
-  opacity: 80%;
-  padding: 3px;
-  background-color: black;
-  background-position: 1px;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  background-color: rgb(8, 1, 36);
+  padding: 3vh;
+  background-color: rgb(8, 1, 36);
+  position: fixed; 
+  top: 0;
+  width: 100vw;
 } 
- /* Navbar links */
-#navbar a {
+ */
+/*#navbar a,*/ #bodyLinks a {
+  font-family: 'Merriweather', serif;
   float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px;
+  padding: 1vh;
+  font-size: 2vh;
   text-decoration: none;
 } 
 
-
-#navbar a:hover {
+/*#navbar a:hover,*/ #bodyLinks a:hover{
   color: grey;
 } 
- /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
- @media only screen and (max-device-width: 1366px) {
+ 
+#bodyLinks a{
+  font-size: 3vh;
+}
+
+.navbar-custom{
+  background-color: rgb(8, 1, 36);
+}
+
+.navbar-custom a{
+  color: white;
+}
+
+.navbar-custom a:hover{
+  color: grey;
+}
+input{
+  align-self: center;
+}
+ /*@media only screen and (max-device-width: 1366px) {
   .parallax {
     background-attachment: scroll;
   }
-} 
+} */
+
+@media only screen and (max-width: 500px) {
+  #title {
+  background-attachment: initial !important;
+  }
+  #title{
+  font-size:5vh;
+  }
+}
+  .card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
