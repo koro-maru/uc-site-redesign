@@ -1,0 +1,241 @@
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+section{
+height:auto;
+max-height:400vh;
+overflow-y: scroll;
+overflow-x: hidden;
+}
+h1{
+  text-align: center;
+  font-size: 8vh;
+  color: white;
+  font-family: 'Merriweather', serif;
+  animation-name: fadeIn;
+ animation-duration: 2s;
+}
+
+.card-columns{
+  display: inline-block;
+}
+
+.card{
+  margin: 1vh 1vh 1vh 1vh;
+}
+
+#mayor {
+  width: 30vw;
+  height: 50vh;
+}
+
+#mayor .card-img-top {
+ height: 40vh;
+ width: 100%;
+}
+
+#electedOfficials{
+  background-image: url("/images/bg1.png");
+  height: 120vh;
+}
+
+#upcomingEvents{
+  background-image: url("/images/bg2.jpg");
+  height: 120vh;
+}
+
+#socialMedia{
+  height: 120vh;
+  background-image: url("/images/bg2.jpg")
+}
+#history{
+  background-image: url("/images/bg3.jpg");
+  height: 80vh;
+}
+
+#history img{
+  margin: 1vw 1vw 1vw 1vw;
+}
+#history p{
+  font-size: 2vh;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+}
+
+p, span {
+  margin: 1vw 1vw 1vw 1vw;
+  color: white;
+}
+/*.parallax1 {
+ Temp blurry image for testing 
+ Full height 
+  height: 100vh;
+  opacity: 0.95;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+*/
+#bodyLinks a {
+  font-size: 4vw;
+  padding: 4vw;
+}
+  #bodyLinks {
+    overflow: hidden;
+    padding: 2vh;
+    background-color: rgb(8, 1, 36);
+  }
+  section {
+    background-size: cover;
+    height: 100vh;
+  } 
+
+.jumbotron {
+  padding: 20vh;
+  margin-bottom: 0;
+}
+
+.card{
+  width: 10vw;
+  margin: 1vw 1vw 1vw 1vw;
+}
+
+#homeJumbo {
+background-image: url('/images/darkenedHead.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+
+/*#parallax2 {
+    background-image: url("uc.jpg");
+    height: 100vh;
+    opacity: 0.90;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  } 
+*/
+  
+  .footer {
+    font-size: 2vh;
+    height: 50vh;
+    padding: 2vh;
+    background-color: rgb(8, 1, 36);
+  }
+
+#title {
+  font-family: 'Merriweather', serif;
+  font-size: 10vh;
+  text-align: center;
+  overflow: initial;
+}
+
+.jumbotron h1 {
+  color: white;
+}
+
+ /* Style the navbar */
+ /*#navbar {
+  overflow: hidden;
+  background-color: rgb(8, 1, 36);
+  padding: 3vh;
+  background-color: rgb(8, 1, 36);
+  position: fixed; 
+  top: 0;
+  width: 100vw;
+} 
+ */
+/*#navbar a,*/ #bodyLinks a {
+  font-family: 'Merriweather', serif;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1vh;
+  font-size: 2vh;
+  text-decoration: none;
+} 
+
+/*#navbar a:hover,*/ #bodyLinks a:hover{
+  color: grey;
+} 
+ 
+#bodyLinks a{
+  font-size: 3vh;
+}
+
+.navbar-custom{
+  background-color: rgb(8, 1, 36);
+}
+
+.navbar-custom a{
+  color: white;
+}
+
+.navbar-custom a:hover{
+  color: grey;
+}
+input{
+  align-self: center;
+}
+ /*@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+} */
+
+@media only screen and (max-width: 500px) {
+  #title {
+  background-attachment: initial !important;
+  }
+  #title{
+  font-size:5vh;
+  }
+}
+  .card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+
+  .twitter-timeline, .twitter-follow-button{
+    margin: 1vw 1vw 1vw 1vw;
+  }
+
+  .fb-page{
+   /* float: right;*/
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.example {
+  -ms-overflow-style: none;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+} 
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}

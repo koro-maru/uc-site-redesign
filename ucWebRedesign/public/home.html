@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/b6677227af.js" crossorigin="anonymous"></script>
+        <link rel ="stylesheet" type = "text/css" href = "stylesheets/homeStyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet"> 
+    </head>
+    
+    <body>
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+
+      <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="#">Union City</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ordinances</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Government</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Resources
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Archive</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+<!--<a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="gflag nturl" style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="English" /></a><a href="#" onclick="doGTranslate('en|fr');return false;" title="French" class="gflag nturl" style="background-position:-200px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="French" /></a><a href="#" onclick="doGTranslate('en|de');return false;" title="German" class="gflag nturl" style="background-position:-300px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="German" /></a><a href="#" onclick="doGTranslate('en|es');return false;" title="Spanish" class="gflag nturl" style="background-position:-600px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Spanish" /></a>
+<style type="text/css">
+a.gflag {vertical-align:middle;font-size:16px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/16.png);}
+a.gflag img {border:0;}
+a.gflag:hover {background-image:url(//gtranslate.net/flags/16a.png);}
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+body {top:0 !important;}
+#google_translate_element2 {display:none!important;}
+</style>
+
+<br /><select onchange="doGTranslate(this);"><option value="">Select Language</option><option value="en|af">Afrikaans</option><option value="en|ar">Arabic</option><option value="en|ca">Catalan</option><option value="en|zh-CN">Chinese (Simplified)</option><option value="en|zh-TW">Chinese (Traditional)</option><option value="en|da">Danish</option><option value="en|nl">Dutch</option><option value="en|en">English</option><option value="en|tl">Filipino</option><option value="en|fi">Finnish</option><option value="en|fr">French</option><option value="en|de">German</option><option value="en|el">Greek</option><option value="en|ht">Haitian Creole</option><option value="en|hi">Hindi</option><option value="en|it">Italian</option><option value="en|pt">Portuguese</option><option value="en|es">Spanish</option><option value="en|sv">Swedish</option><option value="en|tr">Turkish</option><option value="en|vi">Vietnamese</option></select><div id="google_translate_element2"></div>
+<script type="text/javascript">
+function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'en',autoDisplay: false}, 'google_translate_element2');}
+</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}',43,43,'||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'.split('|'),0,{}))
+/* ]]> */
+</script>-->
+
+         <div class = "jumbotron jumbotron-fluid" id = "homeJumbo">
+          <div class = "titleWrapper"><h1 id = "title">The City of Union City New Jersey</h1></div>
+          </div>
+
+         <nav id = "bodyLinks">
+            <a href="#upcomingEvents">Upcoming Events <i class="fas fa-calendar-alt"></i></a>
+             <a href="#history">History <i class="fas fa-calendar-alt"></i></a>
+             <a href="#electedOfficials">Elected Officials <i class="fas fa-calendar-alt"></i></a>
+             <a href="#notices">Something Else <i class="fas fa-calendar-alt"></i></a>
+             <a href="#socialMedia">Social Media<i class="fas fa-calendar-alt"></i></a>
+         </nav>
+
+         <section id ="upcomingEvents">
+           <h1>Upcoming Events</h1>
+           <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+         </section>
+
+        <section id = "history">
+            <h1>History</h1>
+          <article>
+            <span>Written By Gerard Karabin</span>
+                 <p>
+                  Eighty-five years ago on June 1, 1925, the Town of Union (colloquially known as Union Hill) and the Township of West Hoboken joined together and became one, the city of Union City. Today with a population of approximately 80,000 residents under the auspices of Mayor Brian P. Stack and the Board of Commissioners the city is experiencing an unprecedented period of economic, cultural, and artistic growth needed to remain vital and prosperous in the 21st century. As Union City looks forward and embraces the future it is also proper to pause and reflect on its past. 
+                 Eighty-five years only marks the incorporation of the City of Union City. Its history is far older.
+                 The original inhabitants of the area where Union City is now situated were the Native Americans.
+                 An Algonquian group, the Munsee speaking branch of the Lenni-Lenape, wandered the vast area of woodlands Henry Hudson encountered during his voyage of exploration (1609-1610) in service of the Dutch.
+                 Of the many European countries colonizing North America, the Dutch claimed this area, which would include the future New York City, and named it New Netherland.
+                 The part of land that would one day become Hudson County was purchased from the Hackensack branch of the Lenni-Lenape in 1658 by Peter Stuyvesant, the Governor of New Netherland. 
+                 The deed is preserved in the New York State Archives. </p>
+                 
+                 <img id ="historyImg1" src = "images/historyHead.jpg" align = "left">
+
+                 <p>The deed describes the boundaries of the land purchased: " The tract of land lying on the west side of the North (Hudson) River.
+                  The tract beginning at the Great Clip or Great Rock of Wiehacken (Weehawken) through lands above the Islandt Siskakes (Secaucus) from there to the Kill van Kull and along the channel side to Constables Hook. 
+                  From Constables Hook once again to the Great Clip in Wiehacken."
+                  The tract of land was purchased for the price of "80 fathoms of wampum, 20 fathoms of cloth, 12 brass kettles, 6 guns, one double brass kettle, 2 blankets, and one half barrel of strong beer."
+                  The relationship between the early Dutch settlers and the Native Americans was an uneasy one. Disputes over property and land claims frequently led to skirmishes and war between the two groups.</p>
+                  <img src = "images/historyBody1.jpg" align = "right">
+              
+                  <p>
+                  In seeking a way to protect the defenseless farmhouses in the newly acquired area, Peter Stuyvesant in 1660 ordered the building of a fortified village.
+                  The village known as Bergen was the first permanent settlement in New Jersey, now Jersey City. 
+                  In 1664 the English captured New Netherland from the Dutch. At that time the boundaries of Bergen Township encompassed the area we know as Hudson County.
+                  To the north of Bergen Village was a largely unpopulated area known as Bergen Woods which would slowly be claimed by settlers.
+                  Some streets in Union City still retain the names of the early settlers. 
+                  Yet the area that would one day become Union City remained sparsely inhabited until the early part of the nineteenth century.</p>
+                 <a href = "history.html" id = "readMore">Read more</a>
+          </article>
+        </section>
+       
+        <section id = "electedOfficials">
+            <h1>Meet Our Elected Officials</h1>
+
+            <div class="card mx-auto" id = "mayor">
+              <img class="card-img-top" src="trees.jpeg" alt="Mayor Brian P. Stack">
+              <div class="card-body">
+                <h5 class="card-title">Mayor</h5>
+                <p class="card-text">Brian P. Stack</p>
+              </div>
+            </div>
+
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="trees.jpeg" alt="Lucio P. Fernandez">
+                <div class="card-body">
+                  <h5 class="card-title">Department of Public Affairs</h5>
+                  <p class="card-text">Lucio P. Fernandez</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top" src="trees.jpeg" alt="Celin J. Valdivia">
+                <div class="card-body">
+                  <h5 class="card-title">Department of Parks and Recreation</h5>
+                  <p class="card-text">Celin J. Valdivia</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top" src="trees.jpeg" alt="Wendy Grullon">
+                <div class="card-body">
+                  <h5 class="card-title">Department of Public Works</h5>
+                  <p class="card-text">Wendy Grullon</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top" src="trees.jpeg" alt="Maryury A. Martinetti">
+                <div class="card-body">
+                  <h5 class="card-title">Department of Revenue and Finance</h5>
+                  <p class="card-text">Maryury A. Martinetti</p>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section id = "socialMedia">
+          <h1>Follow us on Social Media</h1>
+          <div>
+          <a class="twitter-timeline" data-width="700" data-height="1000" data-theme="light" href="https://twitter.com/OfficialUCNJ?ref_src=twsrc%5Etfw">Tweets by OfficialUCNJ</a> 
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br>
+          <a href="https://twitter.com/OfficialUCNJ?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @OfficialUCNJ</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+
+          <div class="fb-page" data-href="https://www.facebook.com/UCPublicAffairs/" data-tabs="timeline" data-width="700" data-height="1000" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/UCPublicAffairs/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/UCPublicAffairs/">Union City Public Affairs</a></blockquote></div>
+        </section>
+          <footer class = "footer">
+            <a href = "home.html">Home</a><br>
+            <a href = "contact.html">Contact</a><br>
+            <a href = "contact.html">Ordinances</a><br>
+            <a href = "contact.html">Services</a><br>
+            <a href = "government.html">Government</a><br>
+            <a href = "calendar.html">Calendar</a><br>
+            <a href = "contact.html">Archive</a><br>
+            <a href = "contact.html">Resources</a>
+          </footer>
+    </body>
+</html>

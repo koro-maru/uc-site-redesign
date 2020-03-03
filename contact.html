@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel ="stylesheet" type = "text/css" href = "style.css">
+</head>
+<body>
+    <nav id = "navbar">
+        <a href = "home.html">Home</a>
+        <a href = "contact.html">Contact</a>
+        <a href = "contact.html">Ordinances</a>
+        <a href = "contact.html">Services</a>
+        <a href = "contact.html">Government</a>
+     </nav>
+    <h1>Contact Us</h1>
+    <div class = "mainSection">
+        <form action = "/contacted" method = "POST">
+            <label for="firstName">First Name:</label>
+            <input type = "text" placeholder="First Name"><br><br>
+            <label for="lastName">Last Name:</label>
+            <input name = "lastName" type = "text" placeholder="Last Name"><br><br>
+            <label for="email">Email:</label>
+            <input type = "email" name = "email" placeholder="Email"><br><br>
+            <label for="phone">Phone:</label>
+            <input type = "text" name = "phone" placeholder="Phone"><br><br>
+            <input type = "submit" value = "Submit">
+        </form>
+    </div>
+</body>
+</html>
