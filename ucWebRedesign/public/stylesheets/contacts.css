@@ -1,0 +1,34 @@
+body{
+    background-image: url('union.jpg');
+    background-repeat: repeat-y;
+    background-size: cover;
+    text-align: center;
+    list-style: none;
+
+}
+
+h1{
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(2, 2, 41);
+    text-align: center;
+    margin: left;
+}
+
+label{
+ float: center;
+display: inline-block;
+border: 2px solid;
+padding: 2rem;
+background-color: rgb(249, 252, 255);
+}
+
+.form-control{
+
+display: inline-block;
+width: 50vw;
+border: 2px solid;
+padding: 2rem;
+background-color: aliceblue;
+}
+
+
