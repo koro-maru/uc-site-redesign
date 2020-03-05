@@ -1,0 +1,37 @@
+body{
+    background-image: url('union.jpg');
+    text-align: center;
+}
+
+h1, h2{
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(2, 2, 41);
+    border-radius: 2vw;
+    background-color: cornsilk;
+}
+
+nav {
+  text-align: center;
+  display: inline-block;
+}
+
+
+ul {
+  border-left: 6px solid rgb(58, 58, 129);
+    background-color: #b6bee2;
+   list-style-type: none;
+   padding: 11px 21px;
+}
+
+article{
+    color: rgb(2, 2, 41);
+    font-family: 'PT Serif', serif;
+    display: inline-block;
+}
+.mainSection{
+    margin: 4vw;
+    border-radius: 1vw;
+    padding: 3vw;
+  }
+
+  
